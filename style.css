@@ -44,11 +44,18 @@ body {
     color: #ff6b6b;
 }
 
-.email-list ul {
-    list-style-type: disc;
+.email-list ul li {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ADADAD;
+    color: #f7fff7;
+    border-radius: 15px;
 }
 
-.email-list ul li {
-    padding: 20px 0;
-    color: #f7fff7;
+.email-list ul li:hover {
+    background-color: #DEDEDE;
+    cursor: pointer;
 }
