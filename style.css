@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 876px;
+    height: 876px;
+    background-color: #1a535c;
+    border-radius: 2%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+    background-color: #4ecdc4;
+    border-radius: 5%;
+}
+
+.info-box h1 {
+    text-transform: uppercase;
+    color: #ff6b6b;
+}
+
+.email-list ul {
+    list-style-type: disc;
+}
+
+.email-list ul li {
+    padding: 20px 0;
+    color: #f7fff7;
+}
